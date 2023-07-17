@@ -449,3 +449,83 @@ margin: auto;
 margin-top: 24px;
 margin-bottom: 48px;
 }
+
+
+/* this is mediaquri code. */
+
+
+@media screen and (max-width:576px) {
+
+
+    .banner{
+        flex-direction: column;
+    }
+
+    
+    .banner-content{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .banner-content h1
+    ,.last-title h1
+    
+    {
+        font-size: 12vw;
+        text-align: center;
+        
+    }
+
+    .banner-content p ,.last-title p{
+        
+        font-size: 5vw;
+        width: 90%;
+    }
+
+    .banner-img{
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-img img{
+        width: 70vw;
+        height: auto;
+        padding: 0;
+    }
+/* fetured flower */
+
+.last-title{
+    margin-top: 20px;
+}
+
+.last-title h1,.last-title p{
+
+    width: 80%;
+    margin: auto;
+}
+
+/* top redius flower */
+
+.top-rf{
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.top-rf img{
+    width: 64%;
+}
+
+.flower-box{
+    height: 70vw;
+    width: 60vw;
+    margin: auto;
+}
+.box-title .title h3{
+    font-size: 7vw;
+}
+
+
+    
+}
